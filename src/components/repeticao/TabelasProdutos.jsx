@@ -7,14 +7,14 @@ export default props => {
       <div>
         <td> {produto.id} </td>
         <td> {produto.nome} </td>
-        <td> {produto.preco} </td>
+        <td> R$ {produto.preco} </td>
       </div>
     )
   })
 
   return (
     <div>
-      <table>
+      <table border="1">
         <tr>
           <th>ID</th>
           <th>Produto</th>
